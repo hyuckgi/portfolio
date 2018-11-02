@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=10">
+	<title>Hi! My Name is..</title>
+  
+  
+  <link type="text/css" rel="stylesheet" href="css/common.css" >
+  <link type="text/css" rel="stylesheet" href="css/fom.css" >
+ 
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/fObject.min.js"></script>
+  <script type="text/javascript" src="js/waypoint.min.js"></script>
+  <script type="text/javascript" src="js/fom.js"></script>
+  <script type="text/javascript" src="js/gage.js"></script>
+  <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="js/modernizr-custom.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="js/swiper.min.js"></script>
+  <script type="text/javascript" src="js/scrollspy.js"></script>
+
+  <script> 
+
+    $(document).ready(function(){ 
+
+      $('.bxslider').bxSlider({
+        mode: 'vertical',
+        slideMargin: 5,
+        pager:false,
+        controls:false,
+        auto:true,
+      });
+
+    }); 
+  </script> 
+</head>
+
+
+<body>
+ <div id="wrapper">
+  <header id="header">
+    <div class="logo" role="banner"><h1><a title="Open Menu">My Home</a></h1></div>
+    <div class="wrap">
+      <nav id="navigation" role="navigation">
+        <ol>
+          <li><a data-option="{'bn':'menu-index'}" data-object="FOM" data-a2s="click" href="#index" class="index active" data-wiselog-bn="menu-index" title="Go to Home">Home</a></li>
+          <li><a data-option="{'bn':'menu-ev'}" data-object="FOM" data-a2s="click" href="#history" class="history" data-wiselog-bn="menu-ev" title="About Me">About</a></li>
+          <li><a data-option="{'bn':'menu-app'}" data-object="FOM" data-a2s="click" href="#work" class="work" data-wiselog-bn="menu-app" title="View Portfolio">Work</a></li>
+          <li><a data-option="{'bn':'menu-faq'}" data-object="FOM" data-a2s="click" href="#skill" class="skill" data-wiselog-bn="menu-faq" title="My Skills">Skills</a></li>
+        </ol>
+      </nav>
+      <div class="sns">
+        <a href="https://mail.google.com/mail/" target="_blank" title="Talk to Mail">Mail</a>
+      </div>
+    </div>
+  </header>
+
+  <div id="content" role="main">
+    <div id="index" class="scene after enabled">
+      <div class="title enter">
+        <p class="sub_tit"><span>Front-End Developer</span></p>
+        <p class="main_tit">권혁기</p>
+        <p class="text">
+          <span>아름다운 세상</span>을 만들기 위해 <br>
+          오늘 하루도 기술을 갈고 딱는 <br>
+          꿈 많은 사람입니다. 
+        </p>
+        <p class="text">
+          <img src="img/github-logo.png" alt="github_link"><a href="https://github.com/hyuckgi" title="Follow me on Github" target="_blank">https://github.com/hyuckgi</a>
+        </p>
+        <p class="text">
+          <img src="img/linkedin.png" alt="linkedin"><a href="https://www.linkedin.com/in/hyuckgi-kwon-987129a5/" title="Follow me on linkedin" target="_blank">https://www.linkedin.com</a>
+        </p>
+        <p class="text">
+          <img src="img/home.png" alt="portfolio"><a href="https://gadokkwon.surge.sh" title="Follow me on Webpage" target="_blank">React-Portfolio</a>
+        </p>
+      </div>
+      
+      <div class="phone enter" role="presentation"></div>
+
+      <div class="screenshot active3" role="presentation">
+        <ul class="bxslider">
+          <li><img src="img/kidari_m.png"></li>
+          <li><img src="img/novel_m.png"></li>
+          <li><img src="img/hue_m.png"></li>
+          <li><img src="img/fund_m.png"></li>
+          <li><img src="img/hellonature_m.png"></li>
+        </ul>
+
+
+      </div>
+      <div class="scroll enter" role="presentation"><div class="arrow"></div><p>scroll</p></div>
+      <div class="blink"></div>
+    </div>
+
+    <div id="history" class="scene">
+      <div class="scene-sub1">
+        <div class="inner">
+          <h2 class="title">Profile</h2>
+          <img src="img/profile.jpg" alt="profile" class="profile" title="실물과다름">
+          <ul>
+            <li class="clearfix" ><p class="text_R">권혁기(權赫起)</p></li>
+            <li class="clearfix"><p class="text_R">1984.07.14</p></li>
+            <li class="clearfix hand">
+              <p class="text_R"><a href="http://map.naver.com/?dlevel=12&pinType=site&pinId=18243876&x=126.8612345&y=37.3865475&enc=b64" target="_blank" title="지도보기">경기도 시흥시 목감동</a><img src="img/map.png" alt="지도보기" class="pro_map" title="지도보기" ></p>
+            </li>
+            <li class="clearfix"><p class="text_R">010.6294.9232</p></li>
+            <li class="clearfix hand"><p class="text_R mailing"><a href="https://mail.google.com/mail/" target="_blank" title="메일보내기">gadokkwon@gmail.com</a><img src="img/mail.png" alt="메일보내기"  title="메일보내기" class="pro_mail" ></p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="scene-sub2">
+        <div class="inner">
+          <h2 class="title">History</h2>
+          <ul>
+            <li class="clearfix">
+              <p class="text_L">2003 ~ 2007</p>
+              <p class="text_R">수원대학교 언론정보학과 졸업<img src="img/hand.png" alt="mouse" title="자세히">
+                <span class="hide_text">사교적인 성격으로 동아리연합회 회장을 역임</span>
+              </p>
+            </li>
+            <li class="clearfix">
+              <p class="text_L">2007 ~ 2013</p>
+              <p class="text_R">육군 정훈장교 전역
+                <span class="hide_text">육군 사이버홍보장교로 146개 카페를 관리하며 청춘을 바침</span>
+              </p>
+            </li>
+            <li class="clearfix">
+              <p class="text_L">2014.06 ~ 10</p>
+              <p class="text_R">"스마트콘텐츠 제작과정" 수료
+                <span class="hide_text">현대직업전문학교 HTML5, CSS3 과정 우수한 성적으로 수료</span>
+              </p>
+            </li>
+            <li class="clearfix">
+              <p class="text_L">2014 ~ 2015</p>
+              <p class="text_R">(주)코윈 웹퍼블리셔 
+                <span class="hide_text">종합쇼핑몰, 웹툰사이트 등 다수사이트 Design / Coding</span>
+              </p>
+            </li>
+            <li class="clearfix">
+              <p class="text_L">2015 ~ </p>
+              <p class="text_R">(주)헬로네이처 재직 중
+                <span class="hide_text">웹,모바일웹 Coding / UI Component개발</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="work" class="scene">
+      <div class="scene-sub1">
+        <div class="tab">
+          <a href="#app-content1" class="tab1 active">키다리클럽</a>
+          <a href="#app-content2" class="tab2">노벨코믹스</a>
+          <a href="#app-content3" class="tab3">휴메트로릭스</a>
+          <a href="#app-content4" class="tab4">크라우드펀딩</a>
+          <a href="#app-content5" class="tab5">헬로네이처</a>
+        </div>
+        <div class="app-contents">
+          <div class="active" id="app-content1">
+            <h1>종합쇼핑몰 키다리클럽</h1>
+            <h2>html5, css3, Ajax, 크로스브라우징<br>UI Component 디자인 및 반응형웹 구축</h2>
+            <div class="txt">
+              <ul>
+                <li class="clearfix">
+                  <p class="text_L">사이트명 :</p>
+                  <p class="text_R">키다리클럽<a class="not_allowed" title="out_dated">(http://kidariclub.com)</a></p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">작업영역 : </p>
+                  <p class="text_R">front-end & admin page 디자인 및 퍼블리싱(100%)</p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">제작기간 :</p>
+                  <p class="text_R">약 8개월</p>
+                </li>
+              </ul>
+            </div>
+            <div class="line"></div>
+            <div class="img_area">
+              <img src="img/kidari.png" alt="kidari">
+              <a class="not_allowed" title="out_dated">바로가기</a>
+            </div>
+          </div>
+          <div id="app-content2">
+            <h1>웹툰/웹소설 노벨코믹스</h1>
+            <h2>html5, css3, 크로스브라우징<br>디자인 및 반응형웹 구축</h2>
+            <div class="txt">
+              <ul>
+                <li class="clearfix">
+                  <p class="text_L">사이트명 :</p>
+                  <p class="text_R">노벨코믹스<a class="not_allowed" title="out_dated">(http://novelcomics.co.kr)</a></p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">작업영역 : </p>
+                  <p class="text_R">front-end & admin page 디자인 및 퍼블리싱(100%)</p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">제작기간 :</p>
+                  <p class="text_R">약 5개월</p>
+                </li>
+              </ul>
+            </div>
+            <div class="line"></div>
+            <div class="img_area">
+              <img src="img/novel.png" alt="novel">
+              <a class="not_allowed" title="out_dated" >바로가기</a>
+            </div>
+          </div>
+          <div id="app-content3">
+            <h1>휴메트로릭스</h1>
+            <h2>XpressEngine, JQuery<br>디자인 및 반응형웹 구축</h2>
+            <div class="txt">
+              <ul>
+                <li class="clearfix">
+                  <p class="text_L">사이트명 :</p>
+                  <p class="text_R">휴메트로릭스<a href="http://www.humetroryx.com/" target="_blank">(http://www.humetroryx.com)</a></p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">작업영역 : </p>
+                  <p class="text_R">front & admin page 디자인 및 퍼블리싱(100%)</p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">제작기간 :</p>
+                  <p class="text_R">약 3주</p>
+                </li>
+              </ul>
+            </div>
+            <div class="line"></div>
+            <div class="img_area">
+              <img src="img/hue.png" alt="hue">
+              <a href="http://www.humetroryx.com" title="바로가기" target="_blank">바로가기</a>
+            </div>
+          </div>
+          <div id="app-content4">
+            <h1>크라우드펀딩 펀딩코리아</h1>
+            <h2>모바일 UI개발 및 반응형웹으로 리뉴얼<br>모바일웹 퍼블리싱</h2>
+            <div class="txt">
+              <ul>
+                <li class="clearfix">
+                  <p class="text_L">사이트명 :</p>
+                  <p class="text_R">펀딩코리아<a class="not_allowed" title="out_dated">(http://fundingkorea.com)</a></p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">작업영역 : </p>
+                  <p class="text_R">반응형웹 적용, 모바일 UI 퍼블리싱</p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">제작기간 :</p>
+                  <p class="text_R">약 2주</p>
+                </li>
+              </ul>
+            </div>
+            <div class="line"></div>
+            <div class="img_area">
+              <img src="img/fund.png" alt="funding">
+              <a class="not_allowed" title="out_dated">바로가기</a>
+            </div>
+          </div>
+          <div id="app-content5">
+            <h1>헬로네이처</h1>
+            <h2>모바일웹 리뉴얼<br> UI Component & Interaction 개발</h2>
+            <div class="txt">
+              <ul>
+                <li class="clearfix">
+                  <p class="text_L">사이트명 :</p>
+                  <p class="text_R">헬로네이처<a href="http://www.hellonature.net/mobile_shop" target="_blank">(http://hellonature.net/mobile_shop)</a></p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">작업영역 : </p>
+                  <p class="text_R">모바일웹 리뉴얼, html coding & javascript 개발</p>
+                </li>
+                <li class="clearfix">
+                  <p class="text_L">담당역할 :</p>
+                  <p class="text_R">front-end developer(기여도 50%)</p>
+                </li>
+              </ul>
+            </div>
+            <div class="line"></div>
+            <div class="img_area">
+              <img src="img/hellonature.png" alt="hellonature">
+              <a href="http://www.hellonature.net/" title="웹바로가기" target="_blank">바로가기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="enabledcontent1" class="scene-sub2">
+        <div class="scene-sub2_area">
+          <div class="swiper-container">
+            <div  class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-visible swiper-slide-active" data-contentmap="1">
+                <img src="img/kidari_m.png" alt="kidari">
+              </div>
+              <div class="swiper-slide swiper-slide-visible" data-contentmap="2">
+                <img src="img/novel_m.png" alt="novel">
+              </div>
+              <div class="swiper-slide" data-contentmap="3">
+                <img src="img/hue_m.png" alt="hue">
+              </div>
+              <div class="swiper-slide" data-contentmap="4">
+                <img src="img/fund_m.png" alt="fund">
+              </div>
+              <div class="swiper-slide" data-contentmap="5">
+                <img src="img/hellonature_m.png" alt="hellonature">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-button-prev"><button type="button">이전</button></div>
+        <div class="swiper-button-next"><button type="button">다음</button></div>
+        <div class="phone" role="presentation">
+          <div class="top"></div><div class="left"></div><div class="right"></div><div class="bottom"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skill" class="scene">
+      <div class="tab">
+        <a href="#app-contents1" title="HTML5/CSS3" class="tab1 active">HTML5/CSS3</a>
+        <a href="#app-contents2" title="GUI" class="tab2">GUI</a>
+        <a href="#app-contents3" title="Javascript/JQuery" class="tab3">Javascript/JQuery</a>
+        <a href="#app-contents4" title="Trendy" class="tab4">Reactjs/Vuejs</a>
+        <a href="#app-contents5" title="ETC" class="tab5">ETC</a>
+      </div>
+      <div class="app-contents">
+        <div class="active" id="app-contents1">
+          <ul>
+            <li class="clearfix fir">
+              <p class="text_L">
+                <img src="img/html.png" alt="html">
+              </p>
+              <div data-label="90%" data-level="90" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+            <li  class="clearfix">
+              <p class="text_L">
+                <img src="img/css.png" alt="css">
+              </p>
+              <div data-label="90%" data-level="90" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="app-contents2">
+          <ul>
+            <li class="clearfix fir">
+              <p class="text_L">
+                <img src="img/photo.png" alt="photo">
+              </p>
+              <div data-label="80%" data-level="80" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+            <li  class="clearfix">
+              <p class="text_L">
+                <img src="img/ai.png" alt="ai">
+              </p>
+              <div data-label="70%" data-level="70" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="app-contents3">
+          <ul>
+            <li class="clearfix fir">
+              <p class="text_L">
+                <img src="img/js.png" alt="js">
+              </p>
+              <div data-label="70%" data-level="70" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+            <li  class="clearfix">
+              <p class="text_L">
+                <img src="img/jq.png" alt="jq">
+              </p>
+              <div data-label="80%" data-level="80" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="app-contents4">
+          <ul>
+            <li class="clearfix fir">
+              <p class="text_L">
+                <img src="img/reactjs.png" alt="reactjs">
+              </p>
+              <div data-label="Reactjs : 50%" data-level="50" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+            <li  class="clearfix">
+              <p class="text_L">
+                <img src="img/vuejs.png" alt="">
+              </p>
+              <div data-label="Vuejs : 30%" data-level="30" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="app-contents5">
+          <ul>
+            <li class="clearfix fir">
+              <p class="text_L">
+                <img src="img/nodejs.png" alt="">
+              </p>
+              <div data-label="Nodejs & Express : 50%" data-level="50" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+            <li  class="clearfix">
+              <p class="text_L">
+                <img src="img/webpack.png" alt="">
+              </p>
+              <div data-label="Webpack : 30%" data-level="30" class="chart text_R">
+                <span></span>
+                <p></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</body>
+
+<script>fom.init();</script>
+
+
+</html>

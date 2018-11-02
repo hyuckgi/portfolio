@@ -1,0 +1,47 @@
+/* Reset */
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
+html,body{width: 100%; height: 100%; margin: 0; padding: 0;}
+body,h1,h2,h3,h4,input,button{font-family:"나눔 고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;font-size:12px;color:#505050;}
+img,fieldset,iframe{border:0 none}
+li{list-style:none}
+input,button{margin: 0; padding: 0; border: 0; outline: none;}
+i,em,address{font-style:normal}
+label,button{cursor:pointer}
+button{margin:0;padding:0}
+a{color:#505050;text-decoration:none; cursor: pointer;}
+hr{display:none}
+legend{*width:0}
+table{border-collapse:collapse; border-spacing:0; outline: 0;}
+textarea{overflow: auto; border-collapse:collapse; border-spacing:0; outline: 0;}
+
+/* Hidden */
+.blind{display:block;position:absolute;left:0;top:-9999em;}
+.tblind{text-indent: -9999em;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:after{content:'';display:block;clear:both;}
+
+/*control*/
+
+.bar {
+    border-right: 1px solid #aaa;
+    display: inline-block;
+    height: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 0;
+}
+.arrow{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid rgba(255,255,255,0.5);
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-bottom: -5px;
+    transition: border-color 0.5s ease;
+    -webkit-transition: border-color 0.5s ease;
+}
